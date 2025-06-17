@@ -21,7 +21,13 @@ const Home: NextPage = () => {
         <title>Full Screen Image</title>
         <meta name="description" content="Full screen image display" />
         <link rel="icon" href="/favicon.ico" />
+         {/* Basic required Open Graph tags */}
+        <meta property="og:title" content="Page Title" />
+        <meta property="og:description" content="Page description" />
+        <meta property="og:image" content="1.jpg" />
+        <meta property="og:url" content="https://animalsh.vercel.app/" />
       </Head>
+     
 
       <img
         src={imageUrl}
