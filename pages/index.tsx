@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 const Home: NextPage = () => {
   // Add your local image path here - must be in public directory
-  const imageUrl = "1.jpg"
+  const imageUrl = "1495_.jpg"
 
   return (
     <div style={{
